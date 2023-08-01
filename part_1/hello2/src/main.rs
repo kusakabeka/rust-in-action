@@ -6,7 +6,7 @@ fn greet_world() {
 
     let regions = [southern_germany, japan];
 
-    for region in regions {
+    for region in regions.iter() {
         println!("{}", &region);
     }
 }
